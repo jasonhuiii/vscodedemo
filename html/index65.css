@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.p1{
+    width: 100px;
+    /* 行高 */
+    line-height: 200%;
+}
+.p2{
+    width: 100px;
+    /* 行高 */
+    line-height: 100%;
+}
+.p3{
+    width: 100px;
+    /* 行高 */
+    line-height: 50%;
+}
+li{
+    /* 元素的显示方式 */
+    display: inline;
+}

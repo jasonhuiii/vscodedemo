@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 255, 0);
+}
+.div1{
+    /* 坐标移动 */
+    transform: translate(300px,100px);
+}
+.div2{
+    /* 顺时针旋转 */
+    transform: rotate(20deg);
+}
+.div3{
+    /* 缩放X坐标是宽，Y坐标是高 */
+    margin-top: 400px;
+    transform: scale(2,2);
+}
+.div4{
+    /* 变形 */
+    transform: skew(30deg,30deg);
+}

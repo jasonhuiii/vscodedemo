@@ -1,0 +1,12 @@
+ul li{
+    /* 列表排序 */
+    list-style-type: decimal-leading-zero;
+}
+ul.ul1{
+    /* 留空 */
+    list-style-position: inside;
+}
+ul.ul2{
+    /* 不留空 */
+    list-style-position: outside;
+}

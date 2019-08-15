@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js函数调用</title>
+</head>
+
+<body>
+    <p id="id1"></p>
+    <script>
+        function demo(a, b) {
+
+            sum = a + b;
+            alert(sum); //弹出对话框
+
+            return sum; //马上终止返回函数值
+        }
+
+        document.getElementById("id1").innerHTML = demo(100, 20);
+    </script>
+    <button onclick="demo(10,100)">anniu</button>
+
+</body>
+
+</html>

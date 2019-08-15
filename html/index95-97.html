@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS DOM操作HTML CSS EventListener</title>
+</head>
+
+<body>
+    <p id="id0">halo</p>
+    <button onclick="demo()">ok</button>
+    <img src="img/1.jpg" id="img0">
+    <button onclick="demoimg()">change</button>
+    <button id="asd">asdasd</button>
+    <script>
+        var x = document.getElementById("asd");
+        x.addEventListener("click", demo); //addEventListener句柄 调用
+        x.addEventListener("click", demoimg); //addEventListener句柄 调用
+        x.removeEventListener("click", demoimg);
+
+        function demo() {
+            document.getElementById("id0").innerHTML = "world";
+            document.getElementById("id0").style.fontSize = "100px";
+
+        }
+
+        function demoimg() {
+            document.getElementById("img0").src = "img/2.jpg";
+
+        }
+    </script>
+</body>
+
+</html>

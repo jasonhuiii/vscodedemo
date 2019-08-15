@@ -1,0 +1,27 @@
+/* 指定id */
+#tb{
+    width: 400px;
+    /* 折叠边框 */
+    border-collapse: collapse;
+}
+/* 指定id及其元素 */
+#tb,td,th{
+    /* 外边框样式 */
+    border: 1px solid red;
+    /* 居中 */
+    text-align: center;
+}
+/* 指定类名 */
+tr.alt{
+    background-color: aqua;
+    
+}
+/* 指定类名中的元素 */
+tr.alt td{
+    color: chartreuse;
+}
+/* 指定id中元素 */
+#tb th{
+    color: yellow;
+}
+/* ,相当于and  空格相当于路径中的/ */

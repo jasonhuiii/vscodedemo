@@ -1,0 +1,26 @@
+
+body{
+    width: 64%;
+    height: auto;
+    margin: 10px auto;
+}
+.img{
+    border: 5px solid rgb(56, 3, 248);
+    margin: 5px;
+    width: auto;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+img{
+    margin: 5px;
+}
+a{
+    text-decoration-line: none;
+    
+}
+a:hover{
+    background-color: rgb(44, 245, 3);
+    text-decoration-line: underline;
+    opacity: 0.5;
+}

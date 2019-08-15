@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form表单</title>
+</head>
+
+<body>
+    <form id="testform" action="http://localhost:8080/HelloJSP01/test01.jsp">
+        <input formmethod="GET" type="submit" name="s1" value="v1"
+            formaction="http://localhost:8080/HelloJSP01/test01.jsp">提交到第1个页面
+        <input formmethod="POST" type="submit" name="s2" value="v2"
+            formaction="http://localhost:8080/HelloJSP01/test02.jsp">提交到第2个页面
+        <input formenctype="text/plain" type="submit" name="s3" value="v3"
+            formaction="http://localhost:8080/HelloJSP01/test03.jsp">提交到第3个页面
+        <input formenctype="multipart/form-data" type="submit" name="s3" value="v3"
+            formaction="http://localhost:8080/HelloJSP01/test03.jsp">提交到第3个页面
+        <input formenctype="application/x-www-form-urlencoded" type="submit" name="s3" value="v3"
+            formaction="http://localhost:8080/HelloJSP01/test03.jsp">提交到第3个页面
+        <input type="text">
+        <br>
+        <br>
+        <br>
+        <br>
+        <label>
+            <input type="text" required placeholder="请输入用户名">
+            <button type="submit">
+                提交
+            </button>
+
+        </label>
+        <input type="text" name="greeting" list="greetings" autocomplete="">
+        <datalist id="greetings">
+            <option value="1567">1567</option>
+            <option value="2567">2567</option>
+            <option value="3567">3567</option>
+            <option value="4567">4567</option>
+        </datalist>
+
+
+    </form>
+
+    <form action="http://localhost:8080/HelloJSP01/test01.jsp">
+        <input name="part" pattern="[A-Z]{1}[a-z]{1}[0-9]{1}">
+        <input type="image" src="image/1.png" alt="提交" width="50" height="50">
+    </form>
+
+
+</body>
+
+</html>

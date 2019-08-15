@@ -1,0 +1,56 @@
+#position1{
+    width: 180px;
+    height: 100px;
+    background-color: red;
+    /* 定位：相对 */
+    position: relative;
+    left: 80px;
+    top: 100px;
+    /* 优先级 */
+    z-index: 3;
+}
+#position2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(236, 235, 159);
+    position: relative;
+    left: 100px;
+    top: 50px;
+    z-index: 2;
+}
+#position3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    left: 60px;
+    top: 50px;
+    z-index: 3;
+}
+#position4{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(12, 11, 11);
+    position: relative;
+    left: 490px;
+    bottom: 350px;
+    z-index: 3;
+}
+#position5{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(236, 235, 159);
+    position: relative;
+    left: 500px;
+    bottom: 350px;
+    z-index: 2;
+}
+#position6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(103, 103, 105);
+    position: relative;
+    left: 490px;
+    bottom: 400px;
+    z-index: 3;
+}

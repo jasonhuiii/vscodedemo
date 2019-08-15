@@ -1,0 +1,18 @@
+a{
+    color: blue;
+}
+h1,h2{
+    color: brown;
+}
+div.div1{
+    color: blueviolet;
+}
+.div2{
+    font-size: 50px;
+}
+.div1.div2{
+    font-style: italic;
+}
+strong i{
+    font-size: 100px;
+}

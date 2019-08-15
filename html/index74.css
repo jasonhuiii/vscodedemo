@@ -1,0 +1,8 @@
+.koa img{
+    width: 300px;
+    margin: 5px;
+}
+.kol{
+    column-gap: 5px;
+    column-width: 300px;
+}

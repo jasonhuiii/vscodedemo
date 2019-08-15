@@ -1,0 +1,35 @@
+#fd1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    float: left;
+}
+#fd2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(110, 42, 165);
+    float: left;
+
+}
+#fd3{
+    width: 50px;
+    height: 100px;
+    background-color: rgb(6, 121, 252);
+    float: left;
+
+}
+#fd4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 253, 9);
+    float: left;
+
+}
+#all{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(245, 148, 148);
+}
+#halo{
+    clear: both;
+}

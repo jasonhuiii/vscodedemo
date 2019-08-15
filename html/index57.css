@@ -1,0 +1,22 @@
+*{
+    /* 外边距 */
+    margin: 0px;
+    /* 内边距 */
+    padding: 0px;
+    /* list样式去除 */
+    list-style: none;
+    text-align: center;
+}
+#div1{
+    width: 900px;
+    height: auto;
+    margin:0px auto;
+}
+ul{
+    width: 300px;
+    /* 向左浮动 */
+    float: left;
+}
+li{
+    height: 300px;
+}

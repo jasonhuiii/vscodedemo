@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+}
+.duiqi{
+    width: 70%;
+    height: 200px;
+    background-color: aqua;
+    /* 利用外边框margin设置上下0px 水平居中自动对齐 */
+    margin: 0px auto;
+}
+.duiqi2{
+    width: 70%;
+    height: 200px;
+    background-color: rgb(17, 0, 255);
+    /* 利用position设置水靠右对齐 */
+    position: absolute;
+    right: 0px;
+    
+}
+.duiqi3{
+    width: 10%;
+    height: 400px;
+    background-color: rgb(255, 0, 212);
+    /* 利用float设置水靠左对齐 */
+    float: left;
+}

@@ -1,0 +1,19 @@
+/* 未被访问的颜色 */
+a:link{
+    color: rgb(5, 105, 5);
+    /* 清除下划线 */
+    text-decoration: none;
+
+}
+/* 用户访问后的颜色 */
+a:visited{
+    color:rgb(5, 105, 5);
+}
+/* 鼠标指针位于链接上方的颜色 */
+a:hover{
+    color: blue;
+}
+/* 链接被点击时刻的颜色 */
+a:active{
+    color:red;
+}

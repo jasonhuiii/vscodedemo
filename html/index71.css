@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: width 1s,height 1s;
+    margin: 100px auto;
+
+
+}
+div:hover{
+    width: 200px;
+    height: 200px;
+}
