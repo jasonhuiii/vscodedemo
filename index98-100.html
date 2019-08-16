@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS事件详解</title>
+</head>
+
+<body>
+    <div id="id1"><button id="id0">按钮</button><a id="id2" href="http://wwww.baidu.com">diaoniamsd</a></div>
+    <script>
+        document.getElementById("id0").addEventListener("click", demo);
+        document.getElementById("id1").addEventListener("click", demo1);
+        document.getElementById("id2").addEventListener("click", demo2);
+
+        function demo(eve) {
+            alert("获取事件目标" + eve.target);
+            alert("获取事件类型" + eve.type);
+            eve.stopPropagation(); //阻止其他事件冒泡
+        }
+
+        function demo1() {
+            alert("cao");
+        }
+
+        function demo2(eve) {
+            eve.stopPropagation(); //阻止其他事件冒泡
+            eve.preventDefault(); //阻止事件默认行为
+        }
+    </script>
+</body>
+
+</html>

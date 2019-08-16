@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS内置对象</title>
+</head>
+
+<body>
+    <script>
+        // 定义并创建对象1
+        people = new Object();
+        people.name = "乔碧萝";
+        people.age = "58";
+        document.write("姓名:" + people.name + ",年龄:" + people.age);
+        // constructor 属性返回对创建此对象的 Boolean 函数的引用
+        if (people.constructor == Number) {
+            document.write("This is a Object");
+        }
+        if (people.constructor == String) {
+            document.write("This is a Object");
+        }
+        if (people.constructor == Object) {
+            document.write("This is a Object");
+        }
+
+
+        // 定义并创建对象2
+        nimabi = {
+            name: "吴亦凡",
+            age: "66"
+        };
+        document.write("<br/>姓名:" + nimabi.name + ",年龄:" + nimabi.age);
+
+
+        // 用函数创建对象
+        function caixukun(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+        var son = new caixukun("蔡徐坤", "18");
+        caixukun.prototype.salary = null; //prototype 属性使您有能力向对象添加属性和方法
+        son.salary = "0.5";
+        document.write("<br/>姓名:" + son.name + ",年龄:" + son.age + ",收入:" + son.salary);
+
+
+
+        var str = "Hello World!"
+        document.write("<br/>字符串的长度:" + str.length);
+    </script>
+</body>
+
+</html>
